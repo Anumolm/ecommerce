@@ -116,12 +116,15 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #F05F40 !important;
-  background-color: transparent;
+  background-color: white!important;
+  border-radius: 25px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-  background-color: transparent;
+	color: white !important;
+  background-color: #F05F40!important;
+  border-radius: 25px;
 }
 
 @media (min-width: 992px) {
