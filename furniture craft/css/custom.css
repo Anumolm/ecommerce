@@ -1,0 +1,81 @@
+/*header logo*/
+.header a.logo {
+float: left;  
+}
+ 
+.header a.logo img {
+width: 140px; 
+}
+
+/*email form*/
+a#email{
+text-decoration:none;
+color: Black;
+}
+
+a#email:hover,a#email:focus,a#email:active{
+color: #F05F40;
+}
+.modal-footer button{
+font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+font-size: 14px;
+}
+/*Padding before Gallery*/
+.portfolio-box img{
+max-height:300px;
+}
+/*Carousel customization*/
+.carousel img {
+max-height:200px;
+}
+.carousel .slide{
+width:80%;
+}
+.carousel-caption {
+   position:relative;
+   bottom:-20px;
+   right:auto;
+   left:auto;
+}
+.carouselArrow:before{
+color:#F05F40;
+font-size:36px;
+}
+
+.carousel-item{
+border:65px solid white;
+border-top:none;
+border-bottom:none;
+}
+
+.carousel-control-prev {
+ margin-left: -50px;
+}
+
+.carousel-control-next {
+  margin-right: -50px;
+}
+
+/*Get a quote*/
+.quoteBtn{
+padding:5px 15px;
+}
+.modal div.form-group,h4{
+color:Black;
+}
+.quoteDialog{
+text-align:left;
+color:Black;
+}
+
+/*View all*/
+#view{
+font-size:1.2rem;
+text-decoration:none;
+margin: -35px 21px 0;
+}
+
+/*Padding adjust*/
+#contact{
+padding-bottom:5rem;
+}

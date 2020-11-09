@@ -1,0 +1,91 @@
+/*background image*/
+body {
+  background: linear-gradient(rgba(47, 23, 15, 0.65), 
+  rgba(47, 23, 15, 0.65)),url(img/article-bg2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/*Positioning logo*/
+.header a.logo {
+float: left;  
+}
+
+/*logo width*/ 
+.header a.logo img {
+width: 140px; 
+}
+
+/*Category heading style*/
+h2 {
+font-size: 1.3rem;
+font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+font-weight:bolder;
+}
+
+.productCategory{
+margin-left:auto;
+margin-right:auto;
+max-width:25%;
+border-radius: 25px;
+background-color: transparent;
+color:white;
+}
+.productCategory:hover{
+margin-left:auto;
+margin-right:auto;
+background-color: transparent;
+color:#F05F40;   
+}
+
+/*Button style*/
+.btn-outline-primary{
+background-color: transparent;
+color:#F05F40;
+border:1px solid #F05F40;
+}
+.btn-outline-primary:hover,.btn-outline-primary:focus,.btn-outline-primary:active{
+background-color: #F05F40;
+color:white;
+border:1px solid #F05F40;
+}
+
+/*Product images in the page*/
+.imgBox {
+height:auto;
+max-width:100%;
+padding:20px;
+}
+.imgBox img{
+max-height:200px;
+}
+.imgBox a{
+position:relative;
+bottom:-20px;
+margin-bottom:25px;
+}
+
+/*navbar in the page*/
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+color:#F05F40;
+}
+
+#mainNav {
+color:#F05F40;
+background:rgba(0,0,0,.7);
+}
+
+/*divider of page*/
+.divider {
+  height: 1px;
+  width;100%;
+  margin: 9px 0 25px;
+  background-color: #F05F40;
+}
+
+/*Top margin of page*/
+.productBody{
+margin-top:125px;
+}
